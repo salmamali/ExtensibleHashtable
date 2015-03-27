@@ -139,49 +139,49 @@ public class ExtensibleHash {
 //		System.out.println(stringToBinary(s));
 //	}
 //main method to test insertion
-	public static void main(String[] args) throws Exception{
-		ExtensibleHash t = new ExtensibleHash();
-		t.insertIndex("0000");
-		t.insertIndex("0001");
-		t.insertIndex("0010,1");
-		t.insertIndex("0011");
-//		t.insertIndex("0100");
-//		t.insertIndex("0101");
-//		t.insertIndex("0110");
-//		t.insertIndex("0111");
-//		t.insertIndex("1000");
-//		t.insertIndex("1001");
-//		t.insertIndex("1010");
-//		t.insertIndex("1011");
-//		t.insertIndex("1100");
-//		t.insertIndex("1101");
-//		t.insertIndex("1110");
-//		t.insertIndex("1111");
-
-//		for (int i = 0; i < t.prefix.size(); i++) {
-//			System.out.println("      ---");
-//			if (t.buckets.get(i).bucket.size() > 0) {
-//				System.out.println("     " + t.buckets.get(i).bucket.get(0));
-//			} else
-//				System.out.println("     null");
-//			System.out.println("     ---");
-//			if (t.buckets.get(i).bucket.size() > 1) {
-//				System.out.println(t.prefix.get(i)+"->" + t.buckets.get(i).bucket.get(1));
-//			} else
-//				System.out.println("     null");
-//			System.out.println("      ---");
-//			if (t.buckets.get(i).bucket.size() > 2) {
-//				System.out.println("     " + t.buckets.get(i).bucket.get(2));
-//			} else
-//				System.out.println("     null");
-//			System.out.println("      ---");
+//	public static void main(String[] args) throws Exception{
+//		ExtensibleHash t = new ExtensibleHash();
+//		t.insertIndex("0000");
+//		t.insertIndex("0001");
+//		t.insertIndex("0010,1");
+//		t.insertIndex("0011");
+////		t.insertIndex("0100");
+////		t.insertIndex("0101");
+////		t.insertIndex("0110");
+////		t.insertIndex("0111");
+////		t.insertIndex("1000");
+////		t.insertIndex("1001");
+////		t.insertIndex("1010");
+////		t.insertIndex("1011");
+////		t.insertIndex("1100");
+////		t.insertIndex("1101");
+////		t.insertIndex("1110");
+////		t.insertIndex("1111");
 //
-//			System.out.println();
-//
-//		}
-	//	t.delete("0110");
-		//t.delete("0010");
-		System.out.println(t.search("0010"));
-		System.out.println(t.maps.toString());
-	}
+////		for (int i = 0; i < t.prefix.size(); i++) {
+////			System.out.println("      ---");
+////			if (t.buckets.get(i).bucket.size() > 0) {
+////				System.out.println("     " + t.buckets.get(i).bucket.get(0));
+////			} else
+////				System.out.println("     null");
+////			System.out.println("     ---");
+////			if (t.buckets.get(i).bucket.size() > 1) {
+////				System.out.println(t.prefix.get(i)+"->" + t.buckets.get(i).bucket.get(1));
+////			} else
+////				System.out.println("     null");
+////			System.out.println("      ---");
+////			if (t.buckets.get(i).bucket.size() > 2) {
+////				System.out.println("     " + t.buckets.get(i).bucket.get(2));
+////			} else
+////				System.out.println("     null");
+////			System.out.println("      ---");
+////
+////			System.out.println();
+////
+////		}
+//	//	t.delete("0110");
+//		//t.delete("0010");
+//		System.out.println(t.search("0010"));
+//		System.out.println(t.maps.toString());
+//	}
 }
